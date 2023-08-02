@@ -31,6 +31,6 @@ class BaseController extends Controller
             $response['errorDetails'] = $errorDetails;
         }
 
-        return response()->json($response, $code);
+        
     }
 }
