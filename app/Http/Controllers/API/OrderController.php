@@ -342,6 +342,6 @@ class OrderController extends BaseController
             return $this->responseOk($orders, 200, 'success');
         }
 
-        return $this->responseError('Order process failed, 422');
+        
     }
 }
