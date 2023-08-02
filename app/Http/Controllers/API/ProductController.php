@@ -32,7 +32,7 @@ class ProductController extends BaseController
             'total_pages' => $products->lastPage()
         ];
 
-        return $this->responseOk(ProductResource::collection($products),200,'success', $meta);
+        
     }
 
     public function show(Request $request){
