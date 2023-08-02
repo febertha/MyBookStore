@@ -405,7 +405,7 @@ class CartController extends BaseController
             return $this->responseOk($data, 200, 'success');
         }
 
-
+        return $this->responseError('Failed to set shipping cost', 400);
 
     }
 }
