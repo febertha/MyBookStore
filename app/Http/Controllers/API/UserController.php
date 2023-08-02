@@ -78,6 +78,6 @@ class UserController extends BaseController
     {
         $request->user()->token()->revoke();
 
-        return $this->responseOk(null, 200, 'Logged out successfully.');
+        
     }
 }
