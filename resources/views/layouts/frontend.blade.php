@@ -40,7 +40,7 @@
                         <div class="header-bottom-wrapper">
                             <div class="logo-2 furniture-logo ptb-30">
                                 <a href="/">
-                                    <img height="60" style="transform:scale(1.5);object-fit: cover;" src="{{ asset('frontend/assets/img/logo/blabla') }}" alt="">
+                                    <img height="60" style="transform:scale(1.5);object-fit: cover;" src="{{ asset('frontend/assets/img/logo/logo.jpg') }}" alt="">
                                 </a>
                             </div>
                             <div class="menu-style-2 furniture-menu menu-hover">
@@ -58,9 +58,6 @@
                                                     <li><a href="{{ route('shop.index', $category_menu->slug) }}">{{ $category_menu->name }}</a></li>
                                                 @endforeach
                                             </ul>
-                                        </li>
-                                        <li>
-                                            <a href="#">contact</a>
                                         </li>
                                     </ul>
                                 </nav>
@@ -128,7 +125,6 @@
                                                 @endforeach
                                                 </ul>
                                             </li>
-                                            <li><a href="#"> Contact  </a></li>
                                         </ul>
                                     </nav>
                                 </div>
@@ -192,9 +188,9 @@
                 <div class="container-fluid">
                     <div class="widget-wrapper">
                         <div class="footer-widget mb-30">
-                        <img height="60" style="transform:scale(1.5);object-fit: cover;" src="{{ asset('frontend/assets/img/logo/logo.png') }}" alt="">
+                        <img height="60" style="transform:scale(1.5);object-fit: cover;" src="{{ asset('frontend/assets/img/logo/logo.jpg') }}" alt="">
                             <div class="footer-about-2">
-                                <p>There are many variations of passages of Lorem Ipsum <br>the majority have suffered alteration in some form, by <br> injected humour</p>
+                                <p>Terdapat banyak buku menarik yang akan <br>menemani Anda dikala bosan.<br> Ayo beli buku di website My BookStore!!</p>
                             </div>
                         </div>
                         <div class="footer-widget mb-30">
@@ -205,7 +201,7 @@
                                         <span>Address: </span>
                                     </div>
                                     <div class="footer-info-content3">
-                                        <p>66 Sipu road Rampura Banasree <br>USA- 10800</p>
+                                        <p>Jl. Dharmahusada indah 1/16C (Blok C-36)<br>Ruko Pasar Modern 1-3 / Darmo permai III-1</p>
                                     </div>
                                 </div>
                                 <div class="footer-address-furniture">
@@ -213,7 +209,7 @@
                                         <span>Phone: </span>
                                     </div>
                                     <div class="footer-info-content3">
-                                        <p>+8801 (33) 515609735 <br>+8801 (66) 223352333</p>
+                                        <p>0812-3264-5962 <br>0811-303-7373</p>
                                     </div>
                                 </div>
                                 <div class="footer-address-furniture">
@@ -221,7 +217,7 @@
                                         <span>E-mail: </span>
                                     </div>
                                     <div class="footer-info-content3">
-                                        <p><a href="#"> email@domain.com</a> <br><a href="#"> domain@mail.info</a></p>
+                                        <p><a href="#"> mybookstore@gmail.com</p>
                                     </div>
                                 </div>
                             </div>
@@ -250,7 +246,7 @@
                     <div class="row">
                         <div class="col-12 text-center">
                             <div class="copyright-furniture">
-                                <p>Copyright © <a href="https://hastech.company/">HasTech</a> 2018 . All Right Reserved.</p>
+                                <p>Copyright © <a href="https://hastech.company/">kelompok 6</a> 2023</p>
                             </div>
                         </div>
                     </div>
